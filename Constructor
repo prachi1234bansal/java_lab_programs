@@ -1,0 +1,31 @@
+import java.util.*;
+public class Box
+{
+    int w,d,h;
+    Box(int width,int depth,int height)
+    {
+        w=width;
+        d=depth;
+        h=height;
+    }
+    int m1()
+    {
+        return w*d*h;
+    }
+    public static void main(String args[])
+    {
+    Scanner a=new Scanner(System.in);
+    int j=a.nextInt();
+    int h=a.nextInt();
+    int m=a.nextInt();
+    Box b=new Box(j,h,m);
+    int x=b.m1();
+    System.out.println(x);
+    
+        
+    }
+    
+ 
+ 
+
+}
